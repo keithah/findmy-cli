@@ -18,7 +18,7 @@ permissions:
 jobs:
   bump:
     name: Bump findmy-cli formula
-    runs-on: ubuntu-latest
+    runs-on: ubicloud-standard-2
     env:
       TAP_REPO: omarshahine/homebrew-tap
       FORMULA_PATH: Formula/findmy-cli.rb
